@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "BayadCenter", "BayadCenter.rptproj", "{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}.Debug|Default.ActiveCfg = Debug
+		{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}.Debug|Default.Build.0 = Debug
+		{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}.Debug|Default.Deploy.0 = Debug
+		{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}.DebugLocal|Default.Build.0 = DebugLocal
+		{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}.Release|Default.ActiveCfg = Release
+		{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}.Release|Default.Build.0 = Release
+		{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8179A5DC-769C-4305-B283-C593D8BA0366}
+	EndGlobalSection
+EndGlobal
