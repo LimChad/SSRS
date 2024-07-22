@@ -55,6 +55,7 @@
     <Report Include="Bayad Center In-House.rdl" />
     <Report Include="Bayad Center Journals.rdl" />
     <Report Include="Bayad Center Raw Data.rdl" />
+    <Report Include="Bayad Center Recon.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
