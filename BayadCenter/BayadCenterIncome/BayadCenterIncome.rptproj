@@ -8,7 +8,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>Bayad Center/Daily Transactions</TargetReportFolder>
+    <TargetReportFolder>Bayad Center/Monthly Income</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -22,7 +22,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>BayadCenter</TargetReportFolder>
+    <TargetReportFolder>BayadCenterIncome</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -36,7 +36,7 @@
     <OverwriteDataSources>False</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>BayadCenter</TargetReportFolder>
+    <TargetReportFolder>BayadCenterIncome</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
@@ -52,10 +52,8 @@
     <DataSource Include="MSSQL.rds" />
   </ItemGroup>
   <ItemGroup>
-    <Report Include="Bayad Center In-House.rdl" />
-    <Report Include="Bayad Center Journals.rdl" />
-    <Report Include="Bayad Center Raw Data.rdl" />
-    <Report Include="Bayad Center Recon.rdl" />
+    <Report Include="Bayad Center Monthly Income - Consolidated.rdl" />
+    <Report Include="Bayad Center Monthly Income.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>

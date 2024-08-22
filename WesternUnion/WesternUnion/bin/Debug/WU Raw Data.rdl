@@ -21,15 +21,7 @@
             <Value>=Parameters!Param2.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT COALESCE (i.BranchCode, i2.BranchCode, i3.BranchCode, i4.BranchCode) AS BranchCode,
-	dt.*
-	FROM Partners.westernunion_dailytrans AS dt LEFT OUTER JOIN
-	Partners.westernunion_inhousetrans AS i ON dt.MTCN = i.MTCN LEFT OUTER JOIN
-	Partners.westernunion_inhousetrans AS i2 ON SUBSTRING(dt.MTCN, PATINDEX('%[^0]%', dt.MTCN), LEN(dt.MTCN)) = i2.MTCN LEFT OUTER JOIN
-	Partners.westernunion_inhousetrans AS i3 ON { fn CONCAT(CAST(CAST(LEFT(dt.MTCN, 6) AS INT) + 1 AS NVARCHAR), '0000000') } = i3.MTCN AND ABS(dt.PrincipalAmount) = i3.Amount LEFT OUTER JOIN
-	Partners.westernunion_inhousetrans AS i4 ON { fn CONCAT(CAST(CAST(LEFT(dt.MTCN, 6) AS INT) AS NVARCHAR), '0000000') } = i4.MTCN AND ABS(dt.PrincipalAmount) = i4.Amount
-WHERE dt.TransactionDate BETWEEN @Param1 AND @Param2
-ORDER BY COALESCE (i.BranchCode, i2.BranchCode, i3.BranchCode, i4.BranchCode), dt.TransactionDate ASC</CommandText>
+        <CommandText>EXEC [dbo].[westernunion_income_report] @Param1, @Param2</CommandText>
       </Query>
       <Fields>
         <Field Name="BranchCode">

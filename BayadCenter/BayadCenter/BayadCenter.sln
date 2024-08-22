@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "BayadCenter", "BayadCenter.rptproj", "{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "BayadCenterIncome", "..\BayadCenterIncome\BayadCenterIncome.rptproj", "{B7CEE07D-ED03-4F97-9A35-A95843D0314C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
@@ -20,6 +22,14 @@ Global
 		{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}.Release|Default.ActiveCfg = Release
 		{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}.Release|Default.Build.0 = Release
 		{6C4A3D1B-0D7C-48C6-BA1C-9890A4C901EC}.Release|Default.Deploy.0 = Release
+		{B7CEE07D-ED03-4F97-9A35-A95843D0314C}.Debug|Default.ActiveCfg = Debug
+		{B7CEE07D-ED03-4F97-9A35-A95843D0314C}.Debug|Default.Build.0 = Debug
+		{B7CEE07D-ED03-4F97-9A35-A95843D0314C}.Debug|Default.Deploy.0 = Debug
+		{B7CEE07D-ED03-4F97-9A35-A95843D0314C}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{B7CEE07D-ED03-4F97-9A35-A95843D0314C}.DebugLocal|Default.Build.0 = DebugLocal
+		{B7CEE07D-ED03-4F97-9A35-A95843D0314C}.Release|Default.ActiveCfg = Release
+		{B7CEE07D-ED03-4F97-9A35-A95843D0314C}.Release|Default.Build.0 = Release
+		{B7CEE07D-ED03-4F97-9A35-A95843D0314C}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
