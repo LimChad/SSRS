@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "GoldAudit", "GoldAudit.rptproj", "{5A42973A-3993-435B-8DD3-87170E358771}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "GoldReports", "..\GoldReports\GoldReports.rptproj", "{E8B0CFCD-1DBB-4CE8-8426-FBA5D4746E63}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "BSP", "..\BSP\BSP.rptproj", "{9D174CC4-CF97-4AEE-ACCF-8D3A54935041}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
@@ -20,6 +24,22 @@ Global
 		{5A42973A-3993-435B-8DD3-87170E358771}.Release|Default.ActiveCfg = Release
 		{5A42973A-3993-435B-8DD3-87170E358771}.Release|Default.Build.0 = Release
 		{5A42973A-3993-435B-8DD3-87170E358771}.Release|Default.Deploy.0 = Release
+		{E8B0CFCD-1DBB-4CE8-8426-FBA5D4746E63}.Debug|Default.ActiveCfg = Debug
+		{E8B0CFCD-1DBB-4CE8-8426-FBA5D4746E63}.Debug|Default.Build.0 = Debug
+		{E8B0CFCD-1DBB-4CE8-8426-FBA5D4746E63}.Debug|Default.Deploy.0 = Debug
+		{E8B0CFCD-1DBB-4CE8-8426-FBA5D4746E63}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{E8B0CFCD-1DBB-4CE8-8426-FBA5D4746E63}.DebugLocal|Default.Build.0 = DebugLocal
+		{E8B0CFCD-1DBB-4CE8-8426-FBA5D4746E63}.Release|Default.ActiveCfg = Release
+		{E8B0CFCD-1DBB-4CE8-8426-FBA5D4746E63}.Release|Default.Build.0 = Release
+		{E8B0CFCD-1DBB-4CE8-8426-FBA5D4746E63}.Release|Default.Deploy.0 = Release
+		{9D174CC4-CF97-4AEE-ACCF-8D3A54935041}.Debug|Default.ActiveCfg = Debug
+		{9D174CC4-CF97-4AEE-ACCF-8D3A54935041}.Debug|Default.Build.0 = Debug
+		{9D174CC4-CF97-4AEE-ACCF-8D3A54935041}.Debug|Default.Deploy.0 = Debug
+		{9D174CC4-CF97-4AEE-ACCF-8D3A54935041}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{9D174CC4-CF97-4AEE-ACCF-8D3A54935041}.DebugLocal|Default.Build.0 = DebugLocal
+		{9D174CC4-CF97-4AEE-ACCF-8D3A54935041}.Release|Default.ActiveCfg = Release
+		{9D174CC4-CF97-4AEE-ACCF-8D3A54935041}.Release|Default.Build.0 = Release
+		{9D174CC4-CF97-4AEE-ACCF-8D3A54935041}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
